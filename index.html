@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolling Flights - 10 años volando juntos</title>
+    <link rel="icon" href="img/rollingflights3.PNG">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top justify-content-between d-flex" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <img src="img/rollingflights2.PNG" alt="" width="50 px" height="50 px">
+                Rolling Flights
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="#">Inicio<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#Destinos">Destinos</a>
+                <a class="nav-link" href="#Precios">Precios</a>
+                <a class="nav-link" href="#NuestraHistoria">Historia</a>
+                <a class="nav-link" href="#Nosotros">Nosotros</a>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Carrousel -->
+    <section id="carousel-flights">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/img1.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Rolling Flights</h5>
+                        <p>Volá con Nosotros</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img2.JPEG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Rolling Flights</h5>
+                        <p>Cientos de personas nos eligen día tras día para tener una mejor experiencia de vuelo</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img3.JPEG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Rolling Flights</h5>
+                        <p>Conectamos con 9 ciudades entre 5 paises</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img4.JPEG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Rolling Flights</h5>
+                        <p>Solicita información de tu vuelo suspendido por COVID-19</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+
+
+    <!--Tarjetas de destinos-->
+    <h2 class="text-center mt-5 mb-3" id="Destinos">Destinos</h2>
+    <container id="destinos">
+        <div class="card" style="width: 18rem;">
+            <a href="#formulario"><img class="card-img-top foto"
+                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Monumento_al_Bicentenario_de_la_Independencia_Argentina%2C_en_San_Miguel_de_Tucum%C3%A1n.jpg"
+                    alt="Card image cap"></a>
+            <div class="card-body">
+                <p class="card-text ciudaddestino">San Miguel de Tucumán</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <a href="#formulario"><img class="card-img-top foto"
+                    src="https://cdn.civitatis.com/argentina/buenos-aires/galeria/puerto-madero-buenos-aires-argentina.jpg"
+                    alt="Card image cap"></a>
+            <div class="card-body">
+                <p class="card-text ciudaddestino">Buenos Aires</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <a href="#formulario"><img class="card-img-top foto"
+                    src="https://ceca-blogs-sp.s3.amazonaws.com/blogs/boston-seguros-en-cordoba-argentina.jpg"
+                    alt="Card image cap"></a>
+            <div class="card-body">
+                <p class="card-text ciudaddestino">Córdoba</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <a href="#formulario"><img class="card-img-top foto"
+                    src="https://www.eldiario.com.ar/wp-content/uploads/2020/06/tierra-del-fuego-se-prepara-para-habilitar-el-turismo-interno.jpg"
+                    alt="Card image cap"></a>
+            <div class="card-body">
+                <p class="card-text ciudaddestino">Tierra del Fuego</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <a href="#formulario"><img class="card-img-top foto"
+                    src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/11/29142037/PARA-TI-LA-NUEVA-MAR-DEL-PLATA-APERTURA-news-GENTILEZA-TURISMO-PROV-DE-BS-AS.jpg"></a>
+            <div class="card-body">
+                <p class="card-text ciudaddestino">Mar del Plata</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <a href="#formulario"><img class="card-img-top foto"
+                    src="https://unibrastravel.com/wp-content/uploads/2016/04/Rio-de-Janeiro-II.jpg"
+                    alt="Card image cap"></a>
+            <div class="card-body">
+                <p class="card-text ciudaddestino">Río de Janeiro</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <a href="#formulario"><img class="card-img-top foto"
+                    src="https://www.elnuevosiglo.com.co/sites/default/files/styles/noticia_interna/public/2019-04/mede.jpg"
+                    alt="Card image cap"></a>
+            <div class="card-body">
+                <p class="card-text ciudaddestino">Bogotá</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <a href="#formulario"><img class="card-img-top foto"
+                    src="https://s3-us-west-2.amazonaws.com/denomades/blog/wp-content/uploads/2020/08/30162219/lima-peru-shutterstock_1047718252.jpg"
+                    alt="Card image cap"></a>
+            <div class="card-body">
+                <p class="card-text ciudaddestino">Lima</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <a href="#formulario"><img class="card-img-top foto"
+                    src="https://www.berdinodiaz.com/wp-content/uploads/2019/03/montevideo-2.jpg"
+                    alt="Card image cap"></a>
+            <div class="card-body">
+                <p class="card-text ciudaddestino">Montevideo</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top foto"
+                src="https://us.123rf.com/450wm/idimair/idimair1507/idimair150700554/42460213-pr%C3%B3ximamente-cartel-de-venta-la-imagen-de-vector.jpg?ver=6"
+                alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text ciudaddestino">Santiago de Chile</p>
+            </div>
+        </div>
+    </container>
+
+
+
+    <!--Formulario-->
+    <section id="Precios" class ="card pb-5 w-75 mx-auto mt-5 shadow">
+        <form id="formulario">
+            <h2>Elija su destino</h2>
+    
+            <!--Origen y destino-->
+            <div class="form-row justify-content-around">
+                <div class="form-group w-50 px-1">
+                    <label for="inputState">Origen</label>
+                    <select id="inputState" class="form-control px-1">
+                        <option selected>Bogotá</option>
+                        <option>Buenos Aires</option>
+                        <option>Córdoba</option>
+                        <option>Lima</option>
+                        <option>Mar del Plata</option>
+                        <option>Montevideo</option>
+                        <option>Río de Janeiro</option>
+                        <option>Tierra del Fuego</option>
+                        <option>Tucumán</option>
+                    </select>
+                </div>
+                <div class="form-group w-50 px-1">
+                    <label for="inputState">Destino</label>
+                    <select id="inputState" class="form-control px-1">
+                        <option selected>Bogotá</option>
+                        <option>Buenos Aires</option>
+                        <option>Córdoba</option>
+                        <option>Lima</option>
+                        <option>Mar del Plata</option>
+                        <option>Montevideo</option>
+                        <option>Río de Janeiro</option>
+                        <option>Tierra del Fuego</option>
+                        <option>Tucumán</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row justify-content-around">
+                <div class="form-inline w-33 px-1">
+                    <label for="inputState" class="px-1">Adultos</label>
+                    <select id="inputState" class="form-control px-1">
+                        <option selected>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                    <label for="inputState" class="px-1">Niños</label>
+                    <select id="inputState" class="form-control px-1">
+                        <option selected>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <!--Adultos, niños; Ida y vuelta, solo ida-->
+                <div class="form-check form-check-inline w-33 px-1">
+                    <input class="form-check-input px-2 py-2" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                        value="option1">
+                    <label class="form-check-label  pr-1 py-2" for="inlineRadio1">Ida y vuelta</label>
+                    <input class="form-check-input px-2 py-2" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option2">
+                    <label class="form-check-label  pr-1 py-2" for="inlineRadio2">Sólo ida</label>
+                </div>
+                <button type="submit" class="btn btn-outline-dark w-33 px-5">Buscar</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Navbar linea de tiempo -->
+    <div id="NuestraHistoria" class="container">
+        <div class="navbar navbar-light bg-transparent align-items-center">
+            <div class="text-center">
+                <h2 class="text-center mb-5 mt-5">Nosotros en el tiempo</h2>
+            </div>
+            <img class="navbar-brand" href="#"></img>
+            <img src="img/rollingflights2.PNG" width="90" height="90" alt=""></img>
+        </div>
+
+        <!-- Linea de tiempo -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="main-timeline5">
+                    <div class="timeline">
+                        <div class="timeline-icon"><span class="year">2009</span></div>
+                        <div class="timeline-content">
+                            <h3 class="title">Creación</h3>
+                            <p class="description">
+                                Con la exitosa escuela de programación en Tucumán, Argentina, se decidió volar por nuevos terrenos y crear la Aerolinea.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-icon"><span class="year">2010</span></div>
+                        <div class="timeline-content">
+                            <h3 class="title">Hito en ventas</h3>
+                            <p class="description">
+                                Comienza a funcionar el sistema de ventas y reservas
+                                automatizado propio de la empresa al rededor del país.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-icon"><span class="year">2014</span></div>
+                        <div class="timeline-content">
+                            <h3 class="title">Reconocimiento</h3>
+                            <p class="description">
+                                Es designada como la mejor empresa aerocomercial del país, por su eficiente
+                                organización y puntualidad.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-icon"><span class="year">2015</span></div>
+                        <div class="timeline-content">
+                            <h3 class="title">Personal</h3>
+                            <p class="description">
+                                Desde este año, todo el personal es altamente capacitado anualmente en distintos rubros para brindar
+                                mejores atenciones.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-icon"><span class="year">2018</span></div>
+                        <div class="timeline-content">
+                            <h3 class="title">Servicios</h3>
+                            <p class="description">
+                                Contamos con nuevos y actuales servicios de Streaming gratuíto a bordo de nuestras naves y en los distintos aeropuertos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Cards Nuestro equipo2 -->
+    <div id="Nosotros" class="team-grid">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center mb-5 mt-5">Conoce nuestro equipo</h2>
+                <p class="text-center mb-5 mt-5">Somos un grupo de personas comprometidas con objetivos en común, con una
+                    forma de trabajar y accionar por la cual nos sentimos netamente responsables.</p>
+                <p class="text-center">Liderazgo compartido, resposabilidades indivuales, debate abierto a diferentes opiniones y
+                    reuniones activas para que cada experiencia con nosotros sea mejor.</p>
+            </div>
+            <div class="row justify-content-center mt-5 mb-5">
+                <div class="col-lg-3 item my-3">
+                    <div class="box"
+                        style="background-image:url(img/img3.JPEG)">
+                        <div class="cover">
+                            <h3 class="name">Efrain Nieman</h3>
+                            <p class="title">Director General</p>
+                            <div class="social mt-5">
+                                <a target="_blank" href="https://www.facebook.com/RollingCodeSchool">
+                                    <i class="fab fa-facebook-square social-icon"></i>
+                                </a>
+                                <a target="_blank" href="https://www.instagram.com/rollingcodeschool/">
+                                    <i class="fab fa-instagram social-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 item">
+                    <div class="box"
+                        style="background-image:url(img/juani.jpg)">
+                        <div class="cover">
+                            <h3 class="name">Juani Gramajo</h3>
+                            <p class="title">CEO</p>
+                            <div class="social mt-5">
+                                <a target="_blank" href="https://www.facebook.com/RollingCodeSchool">
+                                    <i class="fab fa-facebook-square social-icon"></i>
+                                </a>
+                                <a target="_blank" href="https://www.instagram.com/rollingcodeschool/">
+                                    <i class="fab fa-instagram social-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 item my-3">
+                    <div class="box"
+                        style="background-image:url(img/carla.jpeg)">
+                        <div class="cover">
+                            <h3 class="name">Carla Padula</h3>
+                            <p class="title">Responsable operativo</p>
+                            <div class="social mt-5">
+                                <a target="_blank" href="https://www.facebook.com/RollingCodeSchool">
+                                    <i class="fab fa-facebook-square social-icon"></i>
+                                </a>
+                                <a target="_blank" href="https://www.instagram.com/rollingcodeschool/">
+                                    <i class="fab fa-instagram social-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <!-- Footer iconos -->
+    <footer class="container-fluid footer">
+        <div class="row p-4 align-items-center">
+            <div class="col-sm-4">
+                <a target="_blank" href="https://www.facebook.com/RollingCodeSchool">
+                    <i class="fab fa-facebook-f social-icon"></i>
+                </a>
+                <a target="_blank" href="https://twitter.com/rollingcodeok">
+                    <i class="fab fa-twitter social-icon"></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/rollingcodeschool/">
+                    <i class="fab fa-instagram social-icon"></i>
+                </a>
+            </div>
+            <div class="widget-about">
+                <img src="img/rollingflights2.PNG"></img>
+            </div>
+            <!-- Footer direccion -->
+            <div class="container-fluid col-sm-3 text-center mb-0">
+                <address>
+                    &#169 Rolling Flights Company, S.M de Tucumán, Tucumán, Argentina.
+                    <br>
+                    +54 0800 111 888 / nbwebsolutions@code.com
+                </address>
+            </div>
+            <!-- Footer columna -->
+            <div class="col-sm-4">
+                <ul class="nav flex-column align-content-end text-center">
+                    <li class="nav-link pb-1 pt-0">
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li class="nav-link pb-1 pt-0">
+                        <a target="_blank" href="https://www.google.com.ar/maps/place/RollingCode+School/@-26.8367009,-65.2093905,17z/data=!3m1!4b1!4m5!3m4!1s0x94225d3ad7f30f1d:0xf8606cd659b8e3e4!8m2!3d-26.8367009!4d-65.2072018">Ubicación</a>
+                    </li>
+                    <li class="nav-link pb-1 pt-0">
+                        <a target="_blank" href="https://outlook.live.com/">Contacto</a>
+                    </li>
+                    <li class="nav-link pb-1 pt-0">
+                        <a href="#">Términos y condiciones</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

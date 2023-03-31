@@ -1,0 +1,369 @@
+#mainNav{
+    background-color: #5a90bf;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+/* Carrousel */
+.carousel-item img {
+    width: 100%;
+}
+#carousel-flights .carousel-caption {
+    text-shadow: #000 0px 0px 5px, #000 0px 0px 10px,  #000 0px 0px 15px;
+}
+/* .carouselsh{
+    background-color: rgb(0 0 0 / 36%);
+} */
+.logo{
+    width: 50px;
+    height: 50 px;
+}
+.card-hotel {
+    width: 180px;
+    margin-left: 15px;
+    padding: 1px 10px;
+}
+.card-hotel img {
+    width: 100%;
+    height: 110px;
+}
+.description {
+    margin-top: 10px !important;
+    padding: 2px 5px;
+    font-size: 14px;
+    text-align: center;
+}
+.card-title {
+    text-align: center;
+    font-size: 16px;
+}
+.btn {
+    font-size: 13px !important;
+}
+
+
+
+/*Titulos*/
+h2{
+    padding-top: 50px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/*Tarjetas destinos*/
+#destinos{
+    display: flex;
+    flex-flow: wrap;
+    max-width: 70vw;
+    justify-content: space-around;
+    margin: auto;
+    font-family: 'Balsamiq Sans', cursive;
+    
+}
+.foto{
+    max-width: 18rem;
+    max-height: 10rem;
+    filter: brightness(0.5);
+}
+.foto:hover{
+    filter: none;
+}
+.card{
+    margin:0.5rem;
+}
+.ciudaddestino{
+    text-align: center;
+}
+
+/*Formulario*/
+#formulario{
+    max-width: 60vw;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+/* Linea de tiempo */
+.container .navbar {
+    justify-content: center;
+    max-width: 100%;
+}
+.container .navbar,.timeline {
+    font-family: 'Roboto Slab', serif !important;
+}
+.container .navbar h2 {
+    font-family: 'Balsamiq Sans', cursive !important;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    padding-top: 50px;
+    color: black;
+}
+.main-timeline5 {
+    overflow: hidden;
+    position: relative;
+}
+.main-timeline5 .timeline {
+    position: relative;
+    margin-top: -85px;
+}
+.main-timeline5 .timeline:first-child {
+    margin-top: 0;
+}
+.main-timeline5 .timeline-icon,.main-timeline5 .year {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.main-timeline5 .timeline:after,.main-timeline5 .timeline:before {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.main-timeline5 .timeline:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    box-shadow: -5px 0 5px -5px rgba(0,0,0,.5) inset;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+.main-timeline5 .timeline-icon {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: 25px solid transparent;
+    border-top-color: #6CACE4;
+    border-right-color: #6CACE4;
+    z-index: 1;
+    transform: rotate(45deg);
+}
+.main-timeline5 .year {
+    display: block;
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,.4);
+    font-size: 35px;
+    font-weight: 700;
+    color: #6CACE4;
+    text-align: center;
+    transform: rotate(-45deg);
+}
+.main-timeline5 .timeline-content {
+    width: 35%;
+    float: right;
+    background: #6CACE4;
+    padding: 30px 20px;
+    margin: 50px 0;
+    z-index: 1;
+    position: relative;
+}
+.main-timeline5 .timeline-content:before {
+    content: "";
+    width: 20%;
+    height: 45px;
+    background: #6CACE4;
+    position: absolute;
+    top: 50%;
+    left: -20%;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+.main-timeline5 .title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 10px;
+}
+.main-timeline5 .description {
+    font-size: 15px;
+    color: #fff;
+    line-height: 24px;
+    margin: 0;
+}
+.main-timeline5 .timeline:nth-child(2n):before {
+    box-shadow: 5px 0 5px -5px rgba(0,0,0,.5) inset;
+}
+.main-timeline5 .timeline:nth-child(2n) .timeline-icon {
+    transform: rotate(-135deg);
+    border-top-color: #105572;
+    border-right-color: #105572;
+}
+.main-timeline5 .timeline:nth-child(2n) .year {
+    transform: rotate(135deg);
+    color: #105572;
+}
+.main-timeline5 .timeline:nth-child(2n) .timeline-content {
+    float: left;
+}
+.main-timeline5 .timeline:nth-child(2n) .timeline-content:before {
+    left: auto;
+    right: -20%;
+}
+.main-timeline5 .timeline:nth-child(2n) .timeline-content,.main-timeline5 .timeline:nth-child(2n) .timeline-content:before {
+    background: #105572;
+}
+.main-timeline5 .timeline:nth-child(3n) .timeline-icon {
+    border-top-color: #6CACE4;
+    border-right-color: #6CACE4;
+}
+.main-timeline5 .timeline:nth-child(3n) .year {
+    color: #6CACE4;
+}
+.main-timeline5 .timeline:nth-child(3n) .timeline-content,.main-timeline5 .timeline:nth-child(3n) .timeline-content:before {
+    background: #6CACE4;
+}
+.main-timeline5 .timeline:nth-child(4n) .timeline-icon {
+    border-top-color: #105572;
+    border-right-color: #105572;
+}
+.main-timeline5 .timeline:nth-child(4n) .year {
+    color: #105572;
+}
+.main-timeline5 .timeline:nth-child(4n) .timeline-content,.main-timeline5 .timeline:nth-child(4n) .timeline-content:before {
+    background: #105572;
+}
+@media only screen and (max-width:1199px){.main-timeline5 .timeline{margin-top:-103px}
+.main-timeline5 .timeline-content:before{left:-18%}
+.main-timeline5 .timeline:nth-child(2n) .timeline-content:before{right:-18%}
+}
+@media only screen and (max-width:990px){.main-timeline5 .timeline{margin-top:-127px}
+.main-timeline5 .timeline-content:before{left:-2%}
+.main-timeline5 .timeline:nth-child(2n) .timeline-content:before{right:-2%}
+}
+@media only screen and (max-width:767px){.main-timeline5 .timeline{margin-top:0;overflow:hidden}
+.main-timeline5 .timeline:before,.main-timeline5 .timeline:nth-child(2n):before{box-shadow:none}
+.main-timeline5 .timeline-icon,.main-timeline5 .timeline:nth-child(2n) .timeline-icon{margin-top:-30px;margin-bottom:20px;position:relative;transform:rotate(135deg)}
+.main-timeline5 .timeline:nth-child(2n) .year,.main-timeline5 .year{transform:rotate(-135deg)}
+.main-timeline5 .timeline-content,.main-timeline5 .timeline:nth-child(2n) .timeline-content{width:100%;float:none;border-radius:0 0 20px 20px;text-align:center;padding:25px 20px;margin:0 auto}
+.main-timeline5 .timeline-content:before,.main-timeline5 .timeline:nth-child(2n) .timeline-content:before{width:15px;height:25px;position:absolute;top:-22px;left:50%;z-index:-1;transform:translate(-50%,0)}
+}
+
+
+
+/* Nuestro equipo2 */
+.intro h2 {
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive !important;
+    font-size: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    color: black;
+}
+@media (max-width:767px) {
+    .intro h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+.intro p {
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+.item {
+    margin-bottom: 50px;
+}
+.item .box {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.item .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transition: opacity 0.50s ease-in;
+    opacity: 0;
+    padding-top: 80px;
+    color: rgba(159, 159, 182, 0.795);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.item:hover .cover {
+    opacity: 1;
+}
+.item .name {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(159, 159, 182, 0.795);
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.cover h3:hover {
+    opacity: 0.5;
+}
+.social a {
+    color: white;
+    margin: 0 5px;
+    display: inline-block;
+    opacity: 0.7;
+}
+.social a:hover {
+    opacity: 0.9;
+}
+
+
+
+/* Footer */
+.footer {
+    font-size: 15px;
+    background-color: #5a90bf;
+    margin-top: auto;
+}
+.widget-about img {
+    width: 60px;
+}
+address {
+    font-size: 12px !important;
+}
+footer .social-icon {
+    font-size: 32px;
+    color: rgba(30, 30, 65, 0.692);
+    margin: 15px;
+}
+footer i:hover {
+    color: rgba(16, 16, 138, 0.877);
+}
+footer a:hover {
+    color: rgba(16, 16, 138, 0.877);
+    text-decoration: none;
+}
+.social .social-icon {
+    font-size: 35px;
+    color: rgba(30, 30, 65, 0.692);
+    margin: 5px;
+}
+.nav a {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(30, 30, 65, 0.692);
+}
+@media (min-width:360px) {
+    .row {
+        justify-content: center;
+        max-width: 100%;
+    }
+}
